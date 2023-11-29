@@ -1,2 +1,2 @@
-import {AwsLocalAuthorizerPlugin} from "./lib/AwsLocalAuthorizersPlugin";
-module.exports = AwsLocalAuthorizerPlugin;
+import { AwsLocalAuthorizerPlugin } from "./lib/AwsLocalAuthorizersPlugin.js";
+export default AwsLocalAuthorizerPlugin;
