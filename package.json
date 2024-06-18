@@ -1,41 +1,41 @@
 {
-  "name": "@dyecode/serverless-offline-local-authorizers-plugin",
-  "version": "2.0.5",
-  "main": "./dist/index.js",
-  "scripts": {
-    "tsc": "./node_modules/typescript/bin/tsc"
-  },
-  "type": "module",
-  "files": [
-    "dist",
-    "package.json",
-    "README.md"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ClementCornut/serverless-offline-local-authorizers-plugin.git"
-  },
-  "keywords": [
-    "serverless",
-    "serverless-plugin",
-    "serverless-offline",
-    "nodejs",
-    "local development",
-    "offline",
-    "aws",
-    "authorizer",
-    "custom authorizer",
-    "lambda authorizer",
-    "aws lambda"
-  ],
-  "author": "Nicolai Lang <hi@nlang.de>",
-  "homepage": "https://github.com/nlang/serverless-offline-local-authorizers-plugin#readme",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/node": "20.10.0",
-    "@types/serverless": "^3.12.18",
-    "serverless": "^3.38.0",
-    "typescript": "^5.3.2"
-  },
-  "packageManager": "yarn@4.0.2"
+	"name": "@dyecode/serverless-offline-local-authorizers-plugin",
+	"version": "2.0.6",
+	"main": "./dist/index.js",
+	"scripts": {
+		"tsc": "./node_modules/typescript/bin/tsc"
+	},
+	"type": "module",
+	"files": [
+		"dist",
+		"package.json",
+		"README.md"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ClementCornut/serverless-offline-local-authorizers-plugin.git"
+	},
+	"keywords": [
+		"serverless",
+		"serverless-plugin",
+		"serverless-offline",
+		"nodejs",
+		"local development",
+		"offline",
+		"aws",
+		"authorizer",
+		"custom authorizer",
+		"lambda authorizer",
+		"aws lambda"
+	],
+	"author": "Nicolai Lang <hi@nlang.de>",
+	"homepage": "https://github.com/nlang/serverless-offline-local-authorizers-plugin#readme",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "20.14.5",
+		"@types/serverless": "^3.12.22",
+		"serverless": "^3.39.0",
+		"typescript": "^5.4.5"
+	},
+	"packageManager": "yarn@4.3.0"
 }
